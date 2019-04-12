@@ -1623,14 +1623,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RED4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10OHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="30"/>
 <part name="BLUE4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10OHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="18"/>
 <part name="GREEN4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10OHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="18"/>
-<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="1mF"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.33uF"/>
 <part name="GREEN" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_78XX" device="-TO-220" package3d_urn="urn:adsk.eagle:package:39066/1"/>
 <part name="BLUE" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_78XX" device="-TO-220" package3d_urn="urn:adsk.eagle:package:39066/1"/>
 <part name="RED+PIC" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_78XX" device="-TO-220" package3d_urn="urn:adsk.eagle:package:39066/1"/>
-<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="1mF"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.33uF"/>
-<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="1mF"/>
+<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.1uF"/>
 <part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="0.33uF"/>
 <part name="T_RED" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N5496" device="" package3d_urn="urn:adsk.eagle:package:28520/1"/>
 <part name="T_BLUE" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N5496" device="" package3d_urn="urn:adsk.eagle:package:28520/1"/>
