@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -173,6 +173,10 @@
 <wire x1="0" y1="82.55" x2="82.55" y2="82.55" width="0.1524" layer="20"/>
 <wire x1="82.55" y1="82.55" x2="82.55" y2="0" width="0.1524" layer="20"/>
 <wire x1="82.55" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<hole x="3.81" y="78.74" drill="1"/>
+<hole x="78.74" y="78.74" drill="1"/>
+<hole x="19.05" y="5.08" drill="1"/>
+<hole x="77.47" y="5.08" drill="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
@@ -834,11 +838,11 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-12180" x="2.54" y="-8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="65.024" y="49.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="RJ45-8" package3d_urn="urn:adsk.eagle:package:38235/1" value="RJ45" x="33.02" y="5.08" smashed="yes">
-<attribute name="NAME" x="31.6992" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20"/>
+<element name="P+DAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="RJ45-8" package3d_urn="urn:adsk.eagle:package:38235/1" value="RJ45" x="33.02" y="5.08" smashed="yes">
+<attribute name="NAME" x="41.8592" y="4.953" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08506" x="66.04" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="PRT-00643" x="66.04" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="31.75" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="VALUE" x="41.91" y="3.556" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="RED1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="30" x="6.35" y="72.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.366" y="72.39" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -1241,8 +1245,8 @@ design rules under a new name.</description>
 <contactref element="C5" pad="+"/>
 <contactref element="C3" pad="+"/>
 <contactref element="C7" pad="+"/>
-<contactref element="J1" pad="5"/>
-<contactref element="J1" pad="4"/>
+<contactref element="P+DAT" pad="5"/>
+<contactref element="P+DAT" pad="4"/>
 <contactref element="GRN" pad="1"/>
 <contactref element="BLU" pad="1"/>
 <contactref element="R+PIC" pad="1"/>
@@ -1293,8 +1297,8 @@ design rules under a new name.</description>
 <contactref element="D22" pad="2"/>
 <contactref element="D23" pad="2"/>
 <contactref element="D24" pad="2"/>
-<contactref element="J1" pad="8"/>
-<contactref element="J1" pad="7"/>
+<contactref element="P+DAT" pad="8"/>
+<contactref element="P+DAT" pad="7"/>
 <contactref element="GRN" pad="2"/>
 <contactref element="BLU" pad="2"/>
 <contactref element="R+PIC" pad="2"/>
@@ -1492,7 +1496,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="12"/>
-<contactref element="J1" pad="1"/>
+<contactref element="P+DAT" pad="1"/>
 <wire x1="31.75" y1="15.875" x2="36.83" y2="20.955" width="0.5" layer="16"/>
 <wire x1="29.21" y1="15.875" x2="31.75" y2="15.875" width="0.5" layer="16"/>
 <wire x1="27.94" y1="14.605" x2="29.21" y2="15.875" width="0.5" layer="16"/>
@@ -1502,7 +1506,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="13"/>
-<contactref element="J1" pad="3"/>
+<contactref element="P+DAT" pad="3"/>
 <wire x1="39.37" y1="12.065" x2="39.37" y2="21.463" width="0.5" layer="1"/>
 <wire x1="36.83" y1="9.525" x2="39.37" y2="12.065" width="0.5" layer="1"/>
 <wire x1="31.115" y1="9.525" x2="36.83" y2="9.525" width="0.5" layer="1"/>
