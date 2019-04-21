@@ -1508,9 +1508,9 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="13"/>
 <contactref element="P+DAT" pad="3"/>
 <wire x1="39.37" y1="12.065" x2="39.37" y2="21.463" width="0.5" layer="1"/>
-<wire x1="36.83" y1="9.525" x2="39.37" y2="12.065" width="0.5" layer="1"/>
-<wire x1="31.115" y1="9.525" x2="36.83" y2="9.525" width="0.5" layer="1"/>
-<wire x1="31.115" y1="11.43" x2="31.115" y2="9.525" width="0.5" layer="1"/>
+<wire x1="34.29" y1="6.985" x2="39.37" y2="12.065" width="0.5" layer="1"/>
+<wire x1="31.115" y1="6.985" x2="34.29" y2="6.985" width="0.5" layer="1"/>
+<wire x1="31.115" y1="11.43" x2="31.115" y2="6.985" width="0.5" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
